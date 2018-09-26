@@ -1,0 +1,55 @@
+body {
+    background: light-gray;
+}
+
+#offscreen-nav {
+    background: white;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+#offscreen-nav ul {
+    font-size: 20px;
+    
+}
+
+#close-btn {
+    float: right;
+    padding: 5px;
+}
+
+#tooltip {
+    text-align: center;
+    align-content: center;
+    background: white;
+    width: 150px;
+    height: 75px;
+    border: 1px black solid;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px gray;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+}
+
+#tooltip-point {
+    position: relative;
+    background: white;
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-bottom: none;
+    border-right: none;
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    top: -9px;
+    left: 68px;
+}
+
+#facebook {
+    color: blue;
+}
